@@ -1,3 +1,2 @@
-#!/usr/bin/env bash
-# Runs a Python script from $PYFILE
+#!/bin/bash
 python3 $PYFILE
