@@ -1,3 +1,3 @@
 # Python - import & modules
 
-Project covering Python import statements and module usage.
+This project covers Python import statements and module usage.
