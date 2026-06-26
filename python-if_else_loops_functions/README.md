@@ -1,1 +1,3 @@
-# Python - if/else, loops, functions
+# Python - import & modules
+
+Project covering Python import statements and module usage.
