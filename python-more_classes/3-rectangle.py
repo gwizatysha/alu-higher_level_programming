@@ -14,8 +14,8 @@ class Rectangle:
             height: The height of the rectangle. Must be an integer
                 greater than or equal to 0.
         """
-        self.height = height
         self.width = width
+        self.height = height
 
     @property
     def width(self):
