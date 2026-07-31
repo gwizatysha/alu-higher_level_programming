@@ -19,7 +19,9 @@ class Student:
             attrs (list): optional list of attribute names to retrieve.
                 If not a list of strings, all attributes are retrieved.
         """
-        if isinstance(attrs, list) and all(isinstance(a, str)
-                                            for a in attrs):
+        valid = isinstance(attrs, list)
+        if valid:
+            valid = all(isinstance(attr, str) for attr in attrs)
+        if valid:
             return {k: v for k, v in self.__dict__.items() if k in attrs}
         return self.__dict__

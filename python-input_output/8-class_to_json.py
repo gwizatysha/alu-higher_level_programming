@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module that returns the dictionary description of an object
+"""Module that returns the dictionary description of an object,
 for JSON serialization."""
 
 
