@@ -223,6 +223,12 @@ class TestSquare(unittest.TestCase):
         with open("Square.json", "r") as f:
             self.assertEqual(f.read(), "[]")
 
+    def test_save_to_file_empty_list(self):
+        """Test save_to_file([]) writes an empty list."""
+        Square.save_to_file([])
+        with open("Square.json", "r") as f:
+            self.assertEqual(f.read(), "[]")
+
     def test_load_from_file_no_file(self):
         """Test load_from_file() returns [] when file doesn't exist."""
         try:
